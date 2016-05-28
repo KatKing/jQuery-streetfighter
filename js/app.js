@@ -59,9 +59,7 @@ function play(){
 function instructions(){
 	$('.intro').fadeIn(4000, function(){
 		$(this).fadeOut(2000, function(){
-			$('.main').fadeIn(2000, function(){
-				$('.directions').fadeOut(8000)
-			});
+			$('.main').fadeIn(2000)
 		});
 	})
 }
